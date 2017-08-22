@@ -1,0 +1,5 @@
+--[[
+%% autostart
+%% properties
+%% globals
+--]]
