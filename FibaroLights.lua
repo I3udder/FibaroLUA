@@ -33,8 +33,9 @@ then
   -- You can specify as much lights you want. Just copy the line below.
   fibaro:call(8, "turnOff");
 end
-
- end
+  -- Make it a running instance
+  setTimeout(PowerOff, 60*1000)
+end
 
 if (sourceTrigger["type"] == "autostart") then
 PowerOff()

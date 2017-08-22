@@ -33,8 +33,9 @@ then
   fibaro:call(8, "turnOn");
  end
  end
-
- end
+  -- Make it a running instance
+  setTimeout(PowerOn, 60*1000)
+end
 
 if (sourceTrigger["type"] == "autostart") then
 PowerOn()
